@@ -1,0 +1,26 @@
+{
+  "name": "playwright-codegen-fxa",
+  "description": "Testing Playwright's codegen on Firefox Accounts (FxA).",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/playwright-codegen-fxa/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.18.0",
+    "dotenv": "^14.2.0"
+  },
+  "homepage": "https://github.com/pdehaan/playwright-codegen-fxa#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/playwright-codegen-fxa.git"
+  },
+  "scripts": {
+    "codegen": "npx playwright codegen accounts.firefox.com",
+    "test": "playwright test"
+  }
+}
